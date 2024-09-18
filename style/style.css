@@ -1,0 +1,49 @@
+*{
+    font-family:"Montserrat" ;
+}
+
+.reg{
+    display: flex;
+    flex-direction: column;
+}
+
+.zagalov{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+form{
+    border-radius: 10px;
+    border: 3px solid rgb(174, 212, 255);
+    padding: 50px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.formss{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button{
+    border: 3px solid rgb(174, 212, 255);
+    background-color: transparent;
+    width: 200px;
+    transition: 0.5s;
+    height: 30px;
+}
+
+.button:hover{
+    background-color:  rgb(174, 212, 255);
+    transition: 0.5s;
+}
+
+.errors{
+    color: red;
+    font-size: 10px;
+}
